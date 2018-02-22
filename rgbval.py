@@ -2,7 +2,7 @@ import board
 import busio
 import time
 dotstar = busio.SPI(board.APA102_SCK, board.APA102_MOSI)
-print("INIT") # REPL
+print("INIT") ## REPL
 def setPixel(red, green, blue):
     if not dotstar.try_lock():
         return
@@ -11,4 +11,4 @@ def setPixel(red, green, blue):
     dotstar.unlock()
     time.sleep(0.01)
 while True:
-    setPixel(*(int(c) for c in input("r, g, b: ").split(", ")))
+    setPixel(*(int(c) for c in input("r, g, b: ").split(", "))) ## Apparently this is not "pythonic"
