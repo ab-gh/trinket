@@ -12,4 +12,3 @@ def setPixel(red, green, blue):
     time.sleep(0.01)
 while True:
     setPixel(*(int(c) for c in input("r, g, b: ").split(", ")))
-
