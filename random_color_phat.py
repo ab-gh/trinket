@@ -3,7 +3,7 @@ import time
 import random
 uh.set_layout(uh.PHAT)
 uh.brightness(0.5)
-uh.set_layout(unicorn.AUTO)
+uh.set_layout(uh.AUTO)
 uh.rotation(0)
 uh.brightness(0.5)
 width,height=uh.get_shape()
