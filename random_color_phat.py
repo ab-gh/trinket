@@ -2,6 +2,7 @@ import unicornhat as uh
 import time
 import random
 uh.set_layout(uh.PHAT)
+uh.brightness(0.5)
 #colors = [1, 128, 244]      # set colors all to 1
 colors = [random.randint(3, 240), random.randint(3, 240), random.randint(3, 240), ]     # selects random start color in "safe zone"
 steps = [1, 3, 4]       # set wavelength
