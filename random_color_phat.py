@@ -3,6 +3,10 @@ import time
 import random
 uh.set_layout(uh.PHAT)
 uh.brightness(0.5)
+uh.set_layout(unicorn.AUTO)
+uh.rotation(0)
+uh.brightness(0.5)
+width,height=uh.get_shape()
 #colors = [1, 128, 244]      # set colors all to 1
 colors = [random.randint(3, 240), random.randint(3, 240), random.randint(3, 240), ]     # selects random start color in "safe zone"
 steps = [1, 3, 4]       # set wavelength
