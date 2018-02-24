@@ -10,7 +10,7 @@ width,height=uh.get_shape()
 #colors = [1, 128, 244]      # set colors all to 1
 colors = [random.randint(3, 240), random.randint(3, 240), random.randint(3, 240), ]     # selects random start color in "safe zone"
 #steps = [1, 3, 4]       # set wavelength
-steps = [random.randint(1, 3), random.randint(1, 3), random.randint(1, 3)]              # selects random step beteween 1 and 5
+steps = [random.randint(1, 2), random.randint(1, 2), random.randint(1, 2)]              # selects random step beteween 1 and 5
 print("INIT") ## REPL
 def getColor(index, colors, steps):
     if colors[index] >= 255 or colors[index] <= 0:      # flip the sign of the step at the max/min
@@ -27,4 +27,4 @@ while True:
     print("STEP = ", steps, "COLOR = ", colors)         # REPL debug print
     uh.set_all(r, g, b)                                 # calls setPixel
     uh.show()
-    time.sleep(0.04)                         # random wait time between 0 and 1
+    time.sleep(random.random())                         # random wait time between 0 and 1
