@@ -26,4 +26,5 @@ while True:
     b, colors, steps = getColor(2, colors, steps)       # gets blue
     print("STEP = ", steps, "COLOR = ", colors)         # REPL debug print
     uh.set_all(r, g, b)                                 # calls setPixel
+    uh.show()
     time.sleep(random.random())                         # random wait time between 0 and 1
