@@ -1,4 +1,3 @@
-import board
 import unicornhat as uh
 import time
 import random
