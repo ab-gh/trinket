@@ -27,4 +27,4 @@ while True:
     print("STEP = ", steps, "COLOR = ", colors)         # REPL debug print
     uh.set_all(r, g, b)                                 # calls setPixel
     uh.show()
-    time.sleep(random.random())                         # random wait time between 0 and 1
+    time.sleep(0.04)                         # random wait time between 0 and 1
