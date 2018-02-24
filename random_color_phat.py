@@ -1,5 +1,5 @@
 import board
-import import unicornhat as uh
+import unicornhat as uh
 import time
 import random
 uh.set_layout(uh.PHAT)
