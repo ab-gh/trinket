@@ -11,3 +11,5 @@
   - unicorn hat/phat port
 5. rgbval.py
   - specified color change for the DotStar LED
+
+# CC-BY-SA
